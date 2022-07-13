@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Raleway&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+  background-color: #18212b;
+}
+header {
+  background: url("./pexels-sharad-kachhi-3937174.jpg");
+  background-position: center;
+  height: 80vh;
+  color: #ffffff;
+  text-align: center;
+}
+header nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+header nav a {
+  color: #bababa;
+  text-decoration: none;
+  margin-right: 10px;
+}
+header nav a:hover {
+  color: #ffffff;
+  border-bottom: 1px solid green;
+  box-shadow: 0px 4px 4px gray;
+}
+header .principal {
+  margin-top: 40px;
+}
+header .principal h1 {
+  text-shadow: 2px 4px 4px black;
+}
+header .principal h4 {
+  margin-top: -20px;
+  padding: 20px;
+}
+.premieres-presentation {
+  background-color: black;
+  color: #ffffff;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.premieres-presentation .gauche {
+  width: 60%;
+  margin-left: 10px;
+}
+.offres {
+  padding: 30px;
+  color: #ffffff;
+  background: url("https://cutt.ly/TzaFkYJ");
+  background-position: center;
+}
+.offres h1,
+.offres p {
+  text-align: center;
+}
+
+ 
+
+.offres .offres-cartes {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.offres .offres-cartes .carte {
+  background-color: green;
+  color:black;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+
+}
+.offres .offres-cartes .carte img {
+  height: 60px;
+}
+.partenaire {
+  padding-top: 20px;
+  background-color: black;
+  padding-bottom: 30px;
+  color: #ffffff;
+}
+.partenaire h1 {
+  text-align: center;
+}
+.partenaire .partenaires-images {
+  display: flex;
+  overflow-x: auto;
+  padding: 20px;
+  margin-top: -30px;
+}
+.partenaire .partenaires-images p {
+  margin-right: 30px;
+}
+.partenaire .partenaires-images p img {
+  height: 40px;
+}
+footer {
+  background-color: black;
+  padding: 30px;
+  color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+footer .social-media {
+  display: flex;
+}
+footer .social-media p {
+  margin-right: 15px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  padding: 5px;
+  text-align: center;
+  width: 20px;
+  cursor: pointer;
+}
+@media screen and (max-width: 810px) {
+  .premieres-presentation .gauche {
+    width: 100%;
+    margin-left: 10px;
+  }
+  .premieres-presentation .droite {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
